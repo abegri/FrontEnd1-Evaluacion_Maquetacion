@@ -1,0 +1,95 @@
+@import url('styles.css');
+
+.ofertas{
+    background-color: #222222;
+    color: var(--lettersColor);
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.ofertas div{
+    margin-right: 30px;
+    display:flex;
+}
+
+.div .ofertas-1{
+    flex-direction: row;
+}
+
+.ofertas div p{
+    margin-left: 15px;
+}
+
+.ofertas div i{
+    margin-left: 5px;
+}
+
+header{
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: space-between;
+    /*padding*/
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 15px;
+    
+}
+
+header div h1{
+    font-size: 20px;
+}
+
+header div h1 span{
+    color: var(--lettersColor);
+}
+
+.logo_perro, .logo_gato{
+    width: 15px;
+    height: 10px;
+}
+
+header nav{
+    display:flex;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    padding: 0px 8px;
+    color: var(--lettersColor);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
+.fa-paw{
+    margin-right: 2px;
+}
+
+header .icons{
+    font-size: 18px;
+    color: var(--lettersColor);
+    margin-right: 30px;
+}
+
+.fa-shopping-basket{
+    margin-left: 10px;
+}
+
+
